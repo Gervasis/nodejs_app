@@ -1,0 +1,11 @@
+# Create a new Node.js app
+mkdir my-node-app
+cd my-node-app
+npm init -y
+echo "console.log('Hello, Tekton!');" > index.js
+
+# Initialize a Git repository and push to GitHub
+git init
+git add .
+git commit -m "Initial commit"
+# Create a new repository on GitHub and follow the instructions to push
